@@ -1,0 +1,1 @@
+hospital : https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=21.1818621,72.8244536&radius=500&type=hospital&key=AIzaSyClvmT1pUito9fm7azRO-fgfa8Jyo00qMc

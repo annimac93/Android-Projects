@@ -1,0 +1,24 @@
+keytool -exportcert -alias Bmce+9aHdOoVtE7fS3B07tfj7Bc= -keystore E:\Android_Project\ | C:\opensssl\bin\openssl sha1 -binary | C:\opensssl\bin\openssl base64
+
+
+Bmce+9aHdOoVtE7fS3B07tfj7Bc=
+
+nw0p6N3E9wQ/UyWh9hrTYsbMXBQ=
+
+keytool -exportcert -list -v -alias androiddebugkey -keystore C:\Users\student\.android\debug.keystore
+
+admin
+
+keytool -exportcert -keystore "C:\Users\student\.android\debug.keystore" -list -v
+
+keytool -exportcert -alias androiddebugkey -keystore C:\Users\student\.android\debug.keystore -list -v
+
+keytool -list -v -keystore C:\Users\student\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+sha1 : 1B:5A:24:A3:0B:43:04:73:7E:64:95:A5:5C:C8:68:B0:B6:96:D7:99
+
+keytool -exportcert -alias androiddebugkey -keystore "C:\Users\student\.android\debug.keystore" | "C:\opensssl\bin\openssl" sha1 -binary | "C:\opensssl\bin\openssl" base64
+
+keyhash : G1okowtDBHN+ZJWlXMhosLaW15k=
+
+keytool -exportcert -alias YOUR_RELEASE_KEY_ALIAS -keystore YOUR_RELEASE_KEY_PATH | openssl sha1 -binary | openssl base64

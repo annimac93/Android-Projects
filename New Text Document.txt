@@ -1,0 +1,8 @@
+classpath 'com.google.gms:google-services:3.2.0'
+
+compile 'com.google.firebase:firebase-core:11.8.0'
+
+apply plugin: 'com.google.gms.google-services'
+
+https://www.youtube.com/watch?v=EM2x33g4syY
+https://www.youtube.com/user/SimplifiedCoding/videos
